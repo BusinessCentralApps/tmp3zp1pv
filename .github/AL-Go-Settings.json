@@ -26,5 +26,6 @@
   "githubRunnerShell": "pwsh",
   "templateUrl": "https://github.com/businesscentralapps/tmp9b60oM-PTE@main",
   "shell": "pwsh",
-  "MicrosoftTelemetryConnectionString": ""
+  "MicrosoftTelemetryConnectionString": "",
+  "templateSha": "abd8d41c3775043533b4a32026ed5318a961aafa"
 }
