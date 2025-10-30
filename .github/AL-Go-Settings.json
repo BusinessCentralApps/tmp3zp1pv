@@ -1,5 +1,21 @@
 {
   "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/Actions/432ea51162e5da9bbdfdc8dc9ec1844e100f6725/.Modules/settings.schema.json",
+  "MicrosoftTelemetryConnectionString": "",
+  "useCompilerFolder": true,
+  "UseProjectDependencies": true,
+  "githubRunner": "ubuntu-latest",
+  "incrementalBuilds": {
+    "mode": "modifiedProjects",
+    "onPush": true
+  },
+  "useApproximateVersion": true,
+  "type": "PTE",
+  "runs-on": "ubuntu-latest",
+  "doNotPublishApps": true,
+  "githubRunnerShell": "pwsh",
+  "templateSha": "abd8d41c3775043533b4a32026ed5318a961aafa",
+  "templateUrl": "https://github.com/businesscentralapps/tmp9b60oM-PTE@main",
+  "shell": "pwsh",
   "conditionalSettings": [
     {
       "settings": {
@@ -12,20 +28,5 @@
         "CI/CD"
       ]
     }
-  ],
-  "useCompilerFolder": true,
-  "UseProjectDependencies": true,
-  "githubRunner": "ubuntu-latest",
-  "incrementalBuilds": {
-    "onPush": true
-  },
-  "useApproximateVersion": true,
-  "type": "PTE",
-  "runs-on": "ubuntu-latest",
-  "doNotPublishApps": true,
-  "githubRunnerShell": "pwsh",
-  "templateUrl": "https://github.com/businesscentralapps/tmp9b60oM-PTE@main",
-  "shell": "pwsh",
-  "MicrosoftTelemetryConnectionString": "",
-  "templateSha": "abd8d41c3775043533b4a32026ed5318a961aafa"
+  ]
 }
